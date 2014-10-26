@@ -1,6 +1,6 @@
 makeCacheMatrix <- function(x = numeric(), nrow = 2, ncol = 2) {
 ## This function creates a special "matrix" object that can cache its inverse.
-## default values for nrow and ncol is set to 2
+## The default value for nrow and ncol is set to 2
 
    m <- NULL
    set <- function(y) {
